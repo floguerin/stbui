@@ -1,4 +1,4 @@
-{
+ng serve{
   "/api": {
     "target": "http://api.stbui.com",
     "secure": false

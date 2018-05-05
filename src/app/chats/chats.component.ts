@@ -34,18 +34,18 @@ export class ChatsComponent implements OnInit {
       "name": this.chatName,
       "messages": [
         {
-          "message": "这是 Angular 2 交流群",
+          "message": "Hello",
           "when": 1,
           "who": "me"
         },
         {
-          "message": "推荐下Angular 2 有哪些开源项目？",
+          "message": "How are you ？",
           "when": 1,
           "who": "partner"
         }
       ],
       "lastMessageTime": 1,
-      "lastMessage": "技术交流"
+      "lastMessage": "me"
     };
     this.service.createChat(d);
   }

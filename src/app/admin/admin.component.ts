@@ -74,10 +74,6 @@ export class AdminComponent implements OnInit {
     }, 2000);
   }
 
-  /**
-   * @param event {Event} 事件
-   * @param scrollContainer {Object} 容器dom
-   */
   onActivate(event, scrollContainer) {
     scrollContainer.scrollTop = 0;
   }

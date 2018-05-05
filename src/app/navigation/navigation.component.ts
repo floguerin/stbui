@@ -57,7 +57,6 @@ export class NavigationComponent implements OnInit {
   }
 
   hideLoading() {
-    // 延时显示效果
     setTimeout(() => (this.currentNum = new Array(0)), 1000);
   }
 

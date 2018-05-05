@@ -6,76 +6,76 @@ export class NavigationModel {
     this.model = [
       {
         'id': 'home',
-        'title': '主页',
+        'title': 'Home',
         'type': 'item',
         'icon': 'home',
         'url': '/home'
       },
       {
         'id': 'ui',
-        'title': 'UI元素',
+        'title': 'UI',
         'type': 'collapse',
         'icon': 'bubble_chart',
         'children': [
           {
             'id': 'pagination',
-            'title': '分页',
+            'title': 'Pagination',
             'type': 'item',
             'url': '/materials/pagination'
           },
           {
             'id': 'date-picker',
-            'title': '日期选择器',
+            'title': 'Date picker',
             'type': 'item',
             'url': '/materials/date-picker'
           }, {
             'id': 'modal',
-            'title': '弹出框',
+            'title': 'Modal',
             'type': 'item',
             'url': '/materials/popover'
           }, {
             'id': 'buttons',
-            'title': '按钮',
+            'title': 'Buttons',
             'type': 'item',
             'url': '/materials/buttons'
           }, {
             'id': 'cards',
-            'title': '卡片',
+            'title': 'Cards',
             'type': 'item',
             'url': '/materials/cards'
           }, {
             'id': 'lists',
-            'title': '列表',
+            'title': 'Lists',
             'type': 'item',
             'url': '/materials/lists'
           }, {
             'id': 'menu',
-            'title': '菜单',
+            'title': 'Menu',
             'type': 'item',
             'url': '/materials/menu'
           }, {
             'id': 'slider',
-            'title': '滑块',
+            'title': 'Slider',
             'type': 'item',
             'url': '/materials/slider'
           }, {
             'id': 'tabs',
-            'title': '标签页',
+            'title': 'Tabs',
             'type': 'item',
             'url': '/materials/tabs'
           }, {
             'id': 'tooltips',
-            'title': '文字提示',
+            'title': 'Tooltips',
             'type': 'item',
             'url': '/materials/tooltips'
           }, {
             'id': 'dialogs',
-            'title': '对话框',
+            'title': 'Dialogs',
             'type': 'item',
             'url': '/materials/dialogs'
           }, {
             'id': 'icon',
-            'title': '图标',
+            'title': 'Icons',
             'type': 'item',
             'url': '/materials/icon'
           }
@@ -83,7 +83,7 @@ export class NavigationModel {
       },
       {
         'id': 'extend',
-        'title': '拓展组件',
+        'title': 'Others',
         'type': 'collapse',
         'icon': 'equalizer',
         'badge': {
@@ -94,22 +94,22 @@ export class NavigationModel {
         'children': [
           {
             'id': 'amap',
-            'title': '高德地图',
+            'title': 'Map',
             'type': 'item',
             'url': '/materials/amap'
           }, {
             'id': 'notification',
-            'title': '通知',
+            'title': 'Notification',
             'type': 'item',
             'url': '/materials/notification'
           }, {
             'id': 'calendar',
-            'title': '日历',
+            'title': 'Calendar',
             'type': 'item',
             'url': '/materials/calendar'
           }, {
             'id': 'popover',
-            'title': '文件上传',
+            'title': 'Popover',
             'type': 'item',
             'url': '/materials/popover'
           }
@@ -117,7 +117,7 @@ export class NavigationModel {
       },
       {
         'id': 'forms',
-        'title': '表单',
+        'title': 'Forms',
         'type': 'collapse',
         'icon': 'format_color_text',
         'badge': {
@@ -128,22 +128,22 @@ export class NavigationModel {
         'children': [
           {
             'id': 'elements',
-            'title': '表单元素',
+            'title': 'Elements',
             'type': 'item',
             'url': '/forms/elements'
           }, {
             'id': 'validation',
-            'title': '表单验证',
+            'title': 'Validation',
             'type': 'item',
             'url': '/forms/validation'
           }, {
             'id': 'editor',
-            'title': '编辑器',
+            'title': 'Editor',
             'type': 'item',
             'url': '/forms/editor'
           }, {
             'id': 'json-schema',
-            'title': 'json-schema',
+            'title': 'Json-schema',
             'type': 'item',
             'url': '/forms/json-schema-form'
           }
@@ -151,102 +151,102 @@ export class NavigationModel {
       },
       {
         'id': 'table',
-        'title': '表格',
+        'title': 'Tables',
         'type': 'collapse',
         'icon': 'list',
         'children': [
           {
             'id': 'static',
-            'title': '基本表格',
+            'title': 'Static',
             'type': 'item',
             'url': '/tables/static'
           }, {
             'id': 'datatable',
-            'title': '数据表格',
+            'title': 'Datatable',
             'type': 'item',
             'url': '/tables/datatable'
           }, {
             'id': 'dynamic',
-            'title': '动态表格',
+            'title': 'Dynamic',
             'type': 'item',
             'url': '/tables/dynamic'
           }
         ]
       }, {
         'id': 'pages',
-        'title': '页面',
+        'title': 'Pages',
         'type': 'collapse',
         'icon': 'content_copy',
         'children': [
           {
             'id': 'file-manager',
-            'title': '文件管理',
+            'title': 'File manager',
             'type': 'item',
             'url': '/pages/file-manager'
           }, {
             'id': 'projects',
-            'title': '项目管理',
+            'title': 'Projects',
             'type': 'item',
             'url': '/pages/projects'
           }, {
             'id': 'profile',
-            'title': '个人资料',
+            'title': 'Profile',
             'type': 'item',
             'url': '/pages/profile'
           }, {
             'id': 'blog',
-            'title': '博客',
+            'title': 'Blog',
             'type': 'item',
             'url': '/pages/blog'
           }, {
             'id': 'user',
-            'title': '用户管理',
+            'title': 'User',
             'type': 'item',
             'url': '/pages/user'
           }
         ]
       }, {
         'id': 'extend',
-        'title': '扩展页面',
+        'title': 'More',
         'type': 'collapse',
         'icon': 'more_horiz',
         'children': [
           {
             'id': 'sigin',
-            'title': '登录',
+            'title': 'Sign in',
             'type': 'item',
             'url': '/sigin'
           }, {
             'id': 'sigup',
-            'title': '注册',
+            'title': 'Sign up',
             'type': 'item',
             'url': '/sigup'
           }
         ]
       }, {
         'id': 'apps',
-        'title': '应用',
+        'title': 'Apps',
         'type': 'collapse',
         'icon': 'apps',
         'children': [
           {
             'id': 'todo',
-            'title': '任务',
+            'title': 'To do',
             'type': 'item',
             'url': '/apps/todo/ALL'
           }, {
             'id': 'chats',
-            'title': '聊天',
+            'title': 'Chat',
             'type': 'item',
             'url': '/apps/chats'
           }, {
             'id': 'mail',
-            'title': '信箱',
+            'title': 'Mail',
             'type': 'item',
             'url': '/apps/mail'
           }, {
             'id': 'navigation',
-            'title': '码农庄园',
+            'title': 'Navigation',
             'type': 'item',
             'url': '/apps/navigation',
             'badge': {
@@ -258,7 +258,7 @@ export class NavigationModel {
         ]
       }, {
         'id': 'analysis',
-        'title': '数据分析',
+        'title': 'Analysis',
         'type': 'collapse',
         'icon': 'poll',
         'children': [
@@ -291,36 +291,36 @@ export class NavigationModel {
         ]
       }, {
         'id': 'crm',
-        'title': '客户关系',
+        'title': 'CRM',
         'type': 'collapse',
         'icon': 'business',
         'children': [
           {
             'id': 'lead',
-            'title': '线索',
+            'title': 'Lead',
             'type': 'item',
             'url': '/crm/lead'
           }, {
             'id': 'contacts',
-            'title': '联系人',
+            'title': 'Contacts',
             'type': 'item',
             'url': '/crm/contacts'
           }
         ]
       }, {
         'id': 'apm',
-        'title': '前端监控',
+        'title': 'APM',
         'type': 'collapse',
         'icon': 'code',
         'children': [
           {
             'id': 'error',
-            'title': '脚本异常',
+            'title': 'Error',
             'type': 'item',
             'url': '/apm/error'
           }, {
             'id': 'performance',
-            'title': '性能分析',
+            'title': 'Performance',
             'type': 'item',
             'url': '/apm/performance'
           }
