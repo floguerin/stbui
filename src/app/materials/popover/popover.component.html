@@ -1,0 +1,18 @@
+<mat-card>
+  <mat-card-title>Popover</mat-card-title>
+  <mat-card-content>
+    <button mat-icon-button [popoverTriggerFor]="popover">
+      <mat-icon>grade</mat-icon>
+    </button>
+    <stbui-popover #popover="stbuiPopover">
+      <stbui-date-picker mode="landscape"></stbui-date-picker>
+    </stbui-popover>
+  </mat-card-content>
+</mat-card>
+
+<mat-card>
+  <mat-card-title>文件上传</mat-card-title>
+  <mat-card-content>
+    <stbui-file-upload></stbui-file-upload>
+  </mat-card-content>
+</mat-card>
