@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "sandbox": {
+    "stbui": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/sandbox",
+            "outputPath": "dist/stbui",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -94,27 +94,27 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "sandbox:build"
+            "browserTarget": "stbui:build"
           },
           "configurations": {
             "development": {
-              "browserTarget": "sandbox:build:development"
+              "browserTarget": "stbui:build:development"
             },
             "github": {
-              "browserTarget": "sandbox:build:github"
+              "browserTarget": "stbui:build:github"
             },
             "ngsw": {
-              "browserTarget": "sandbox:build:ngsw"
+              "browserTarget": "stbui:build:ngsw"
             },
             "production": {
-              "browserTarget": "sandbox:build:production"
+              "browserTarget": "stbui:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "sandbox:build"
+            "browserTarget": "stbui:build"
           }
         },
         "test": {
@@ -148,7 +148,7 @@
         }
       }
     },
-    "sandbox-e2e": {
+    "stbui-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -156,7 +156,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "sandbox:serve"
+            "devServerTarget": "stbui:serve"
           }
         },
         "lint": {
@@ -171,5 +171,5 @@
       }
     }
   },
-  "defaultProject": "sandbox"
+  "defaultProject": "stbui"
 }

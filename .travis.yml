@@ -17,5 +17,5 @@ cache:
     - node_modules
 env:
   global:
-    - GH_REF: github.com/FloGuerin/sandbox.git
+    - GH_REF: github.com/floguerin/stbui.git
 
